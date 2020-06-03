@@ -1,6 +1,71 @@
 /*stylesheet*/
 
+
+
+/*
+
+tiers of cascading styles
+
+Imporatnce - 
+
+1. transition
+2. !important
+3. animation
+4. normal
+
+origin
+website
+user
+browser
+
+specificity
+inlinw > id > class > type
+
+position 
+top to bottom, in actual style sheet 
+
+*/
+
+/* Body Selector*/
+
 body {
 		background-color: pink;
 		color:#333333;
 }
+
+/* ID Selector */
+
+h1#main-headline { 
+	font-size: 48px;
+	color: green;
+	font-weight: 800;
+
+}
+
+
+/* Class Selector */
+
+h1.main-headline { 
+	font-size: 48px;
+	color: red;
+	font-weight: 800;
+
+}
+
+/* Group Selector */
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+/* Child Selector
+
+p:last-child {
+	color: blue;
+}  */
+
+
+p {
+color: purple !important;
+}
+
