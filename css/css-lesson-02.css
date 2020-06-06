@@ -5,6 +5,15 @@ body {
 		color:#333333;
 		font-size: 16px;
 		font-family: 'Open Sans', sans-serif;
+
+		/* If you want the background to be an images not a color
+		Code:
+
+		background-color: url('../images/nameofpicture');
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		*/
 }
 
 #wrapper {
@@ -14,6 +23,7 @@ body {
 }
 
 .article {
+	padding: 40px 0 20px 0;
 	background-color:#fff;
 }
 
@@ -35,9 +45,33 @@ p {
 	line-height: 1.6;
 }
 
+p.byline {
+	color: #785364;
+	font-size: 14px;
+}
+
 h1 {
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 900;
 	margin-top: 0;
 
 }
+
+
+/*
+
+No links in this article, but this is what you can do ig you want to change the color of a link in article
+Code:
+
+
+.article a {
+	color: #653C51
+}
+
+Get ride of line when mouse is hovering
+Code:;
+
+.article a:hover {
+	text-decoration: none;
+}
+*/
