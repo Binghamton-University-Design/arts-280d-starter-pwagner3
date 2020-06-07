@@ -1,0 +1,73 @@
+/*stylesheet*/
+
+body {
+		background-color: #c0e4ff;
+		color:#333333;
+		font-size: 16px;
+		font-family: 'Open Sans', sans-serif;
+		background: url('../images/daytime-field.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		
+}
+
+#wrapper {
+	margin: 3em auto;
+	max-width: 700px;
+	padding: 0 20px;
+}
+
+.article {
+	padding: 40px 0 20px 0;
+	background-color:#fff;
+}
+
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 20px 0;
+}
+
+h1, p {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+p {
+	font-weight: 300;
+	line-height: 1.6;
+}
+
+p.byline {
+	color: #785364;
+	font-size: 14px;
+}
+
+h1 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 900;
+	margin-top: 0;
+
+}
+
+
+/*
+
+No links in this article, but this is what you can do ig you want to change the color of a link in article
+Code:
+
+
+.article a {
+	color: #653C51
+}
+
+Get ride of line when mouse is hovering
+Code:;
+
+.article a:hover {
+	text-decoration: none;
+}
+*/
