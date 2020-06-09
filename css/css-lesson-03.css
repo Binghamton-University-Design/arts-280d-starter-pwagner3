@@ -1,0 +1,83 @@
+/*stylesheet*/
+
+body {
+		background-color: #c0e4ff;
+		color:#333333;
+		font-size: 16px;
+		font-family: 'Open Sans', sans-serif;
+		background: url('../images/daytime-field.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+}
+
+#wrapper {
+	margin: 3em auto;
+	max-width: 700px;
+	padding: 0 20px;
+}
+
+.article {
+	position: relative;
+	width: 900px;
+	overflow: hidden;
+	padding: 40px 0 20px 0;
+	background-color:#fff;
+}
+
+.article div {
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+.box {
+	float: right;
+	width: 230px;
+	border: solid black 3px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.masthead {
+	width: 840px;
+	border: solid black 3px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.half, .second-half {
+	/* width: 50%; */
+	width: calc(50% - 40px);
+	padding: 20px;
+}
+
+.half {
+	float: left;
+}
+
+.second-half {
+	float: right;
+}
+
+
+.em-size-box {
+	width: 1em;
+	height: 1em;
+	background-color: orange !important;
+}
+
+.rem-size-box {
+	width: 1rem;
+	height: 1rem;
+	background-color: red !important;
+}
+
+.new-font-size {
+	font-size: 64px;
+}
+
+
+.vw-vh-demo {
+	background-color: blue;
+	width: 100vw;
+	height: 100vh;
+}
