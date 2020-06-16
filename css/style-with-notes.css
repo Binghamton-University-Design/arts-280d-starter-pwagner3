@@ -1,0 +1,43 @@
+
+body {
+		background-color: #ffffff;
+		color:#333333;
+		font-family: 'Roboto Mono', monospace;
+}
+
+/* ID Selector */
+
+h1#main-headline { 
+	font-size: 48px;
+	color: green;
+	font-weight: 800;
+
+}
+
+
+/* Class Selector */
+
+h1.main-headline { 
+	font-size: 48px;
+	color: red;
+	font-weight: 800;
+
+}
+
+/* Group Selector */
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+/* Child Selector
+
+p:last-child {
+	color: blue;
+}  */
+
+
+p {
+color: purple !important;
+}
+
