@@ -1,13 +1,13 @@
 /* vars */
 :root {
-  --background-color: #fff;
-  --body-color: #111;
+  --background-color: #000;
+  --body-color: #c5c5c6;
 }
 
 body {
   background-color: var(--background-color);
   color: var(--body-color);
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.5;
 }
 
@@ -15,7 +15,7 @@ body {
 
 h1, h2, h3, h4 {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -47,7 +47,7 @@ h4 {
 }
 
 .grid div {
-  /*background-color:rgba(0,0,0,0.04);*/
+  background-color:rgba(23, 76, 84, 0.06);
 }
 
 #logo a {
@@ -165,7 +165,7 @@ transition: text-decoration-color .3s ease-in-out;
     top: -8px; }
   .hamburger-inner::after {
     bottom: -8px; }
-    
+
 
 .hamburger--squeeze .hamburger-inner {
   transition-duration: 0.075s;
@@ -259,13 +259,13 @@ transition: text-decoration-color .3s ease-in-out;
   background-color: var(--body-color);
 }
 
-.writing-item h2 a {
+.writing-item h3 a {
   color: var(--body-color);
   text-decoration-color: transparent; 
   transition: text-decoration-color .3s ease-in-out;
 }
 
-.writing-item h2 a:hover {
+.writing-item h3 a:hover {
   color: var(--body-color);
   text-decoration-color: var(--body-color); 
 }
