@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 4.2rem
+  font-size: 4.5rem
 }
 
 h2 {
@@ -27,11 +27,11 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 #wrapper {
@@ -196,10 +196,16 @@ transition: text-decoration-color .3s ease-in-out;
   height: 70vh;
 }
 
-#work h3, #writing h3 {
+#work h3, #writing h3 #portfolio h3 {
   letter-spacing: 1px;
   margin-bottom: 2rem;
 }
+
+#work h3 a, #writing h3 a, #portfolio h3 a {
+  color: var(--body-color);
+  text-decoration: none;
+}
+
 
 .work-item {
   overflow: hidden;
@@ -273,6 +279,30 @@ transition: text-decoration-color .3s ease-in-out;
 .writing-item p a {
   color: var(--body-color);
   text-decoration-color: var(--body-color); 
+}
+
+/* Portfolio */
+
+#portfolio {
+  margin-top: 2rem
+}
+
+#portfolio .work-item {
+  padding-top: calc((9/16) * 100%);
+}
+
+#portfolio .work-item .inner .work-inside {
+  opacity: 1;
+}
+
+#portfolio p a {
+  color: var(--body-color);
+  text-decoration-color: var(--body-color);
+  transition: text-decoration-color .3s ease-in-out;
+}
+
+#portfolio p a: hover {
+  text-decoration-color: transparent;
 }
 
 
